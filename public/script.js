@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 // Usar URL absoluta para evitar problemas de ruta
                 const baseUrl = window.location.origin;
-                const response = await fetch(baseUrl + '/api/mensaje');
+                const response = await fetch(https://nueva-tarea-alv-q5bp-hq7nl0sz1-martin-renterias-projects.vercel.app/ + '/api/mensaje');
                 
                 if (!response.ok) {
                     throw new Error(`Error HTTP: ${response.status}`);
@@ -99,4 +99,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
 });
